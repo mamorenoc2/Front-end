@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables practice</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        thead {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Moorning</th>
+                <td>Panckakes</td>
+                <td>Tortillas</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td rowspan="2">The same</td>
+                <td>Rice</td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td>Beer</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <tbody>
+            <tr>
+                <th></th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th>Morning</th>
+                <td rowspan="2">Work</td>
+                <td rowspan="3">Relax</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td>Dinner</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
