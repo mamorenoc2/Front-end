@@ -2,3 +2,35 @@
     background: #FEFCFB;
     font-family: 'Poppins', sans-serif;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-outline-primary:hover {
+    background-color: #FA7436 !important;
+    border: 1px solid #FA7436 !important;
+    color: #FEFCFB !important;
+}
+
+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:visited {
+    border: 1px solid #FA7436 !important;
+    color: #FA7436 !important;
+}
+
+.text-primary{
+    color: #FA7436 !important;
+}
+
+h1.main-heading {
+    font-family: 'Volkhov', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+p.p-main{
+    font-size: 20px;
+}
+
+.orange {
+    background-color: #FA7436;
+}
+
+.orangetxt {
+    color: #FA7436;
+}
