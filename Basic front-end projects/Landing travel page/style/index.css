@@ -3,34 +3,78 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-outline-primary:hover {
-    background-color: #FA7436 !important;
-    border: 1px solid #FA7436 !important;
-    color: #FEFCFB !important;
+.button{
+    background-color: #FA7436; 
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: #FEFCFB;
+    border: 1px solid #FA7436;
+    color: #FA7436;
 }
 
-.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:visited {
-    border: 1px solid #FA7436 !important;
+.button-outlined{
+    background-color: #FEFCFB;
+    border: 1px solid #FA7436;
+    height: 50px;
+    width: 240px;
+    color: #FA7436;
+    border-radius: 5px;
+    padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button-outlined:hover{
+    background-color: #FA7436; 
+    border: 0px;
+    color: white;
+}
+
+.link:hover{
     color: #FA7436 !important;
 }
 
-.text-primary{
-    color: #FA7436 !important;
-}
-
-h1.main-heading {
+h1.h1 {
     font-family: 'Volkhov', sans-serif;
     font-weight: 700;
     font-size: 50px;
 }
 p.p-main{
-    font-size: 20px;
+    padding-right: 70px;
+    font-size: 18px;
+}
+p.p-discount{
+    font-size: 18px;
+    padding: 0px 320px;
 }
 
-.orange {
-    background-color: #FA7436;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(/style/hover_effect);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.img-discount:hover{
+    background-image: url("/styles/Hover_effect.png");
+    background-color: aquamarine !important; 
 }
 
-.orangetxt {
-    color: #FA7436;
-}

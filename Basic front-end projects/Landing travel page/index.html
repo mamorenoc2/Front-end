@@ -5,15 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trabook</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="./style/index.css">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-            crossorigin="anonymous">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
@@ -22,55 +19,49 @@
                     <img src="/Front-end/Basic front-end projects/Landing travel page/style/Logo.png" alt="Trabook">
                 </div>
                 <div class="p-2 flex-fill">
-                    <nav>
                         <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link active text-black" aria-current="page"
+                            <li class="nav-item nav">
+                                <a class="nav-link link text-black" aria-current="page"
                                     href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">About</a>
+                            <li class="nav-item nav">
+                                <a class="nav-link link text-black" href="#">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">Destination</a>
+                            <li class="nav-item nav">
+                                <a class="nav-link link text-black" href="#">Destination</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">Tour</a>
+                            <li class="nav-item nav">
+                                <a class="nav-link link text-black" href="#">Tour</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black" href="#">Blog </a>
+                            <li class="nav-item nav">
+                                <a class="nav-link link text-black" href="#">Blog </a>
                             </li>
                         </ul>
-                    </nav>
                 </div>
-                <div class="p-2 flex-fill">
-                    <nav>
+                <div class="p-2">
                         <ul class="nav justify-content-center">
-                            <li class="nav-item mr-4">
-                                <a class="nav-link orange" href="#">Login</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" style="color: #FA7436;" href="#">Login</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="btn btn-primary text-light text-center">Sing Up</a>
+                            <li class="nav-item mx-3">
+                                <a href="#" class="button">Sing Up</a>
                             </li>
                         </ul>
-                    </nav>
                 </div>
             </header>
         </div>
-        <main class="container">
+        <main class="container mb-6">
             <div class="row">
-                <div class="col d-flex text-center" style="background-color: aqua;">
+                <div class="col d-flex text-center">
                     <div class="row">
-                        <div class="row orange">
-                            <h1 class="main-heading p-5 h1 align-self-center justify-content-center text-start">Get started your exciting journey with us.</h1>
+                        <div class="row ">
+                            <h1 class="main-heading p-4 h1 align-self-center justify-content-center text-start">Get started your exciting journey with us.</h1>
                         </div>
-                        <div class=" row mt-5 text-start ">
+                        <div class=" row mt-3 text-start ">
                             <p class="p-main align-self-baseline">A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
                         </div>
                         <div class="row ">
-                            <div class="d-flex">
-                                <button type="button" class="btn btn-outline-primary p-3 align-self-start mt-4">Discover Now</button>
-                            </div>
+                                <button type="button" class="button-outlined">Discover Now</button>
                         </div>
                     </div>
                 </div>
@@ -80,32 +71,329 @@
             </div>
             <div class="row container mt-4 p-5">
                 <div class="row" style="background-color: #FFF;box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);">
-                    <div class="col">
-                        <div class="btn-group" role="group">
-                            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Location
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                              <a class="dropdown-item" href="#">Dropdown link</a>
-                            </div>
-                          </div>
+                    <div class="col container m-4">
+                        <h5><b>Location <i class="fa fa-chevron-down" style="color: #f47436;"></i></b></h5>
+                        <p>Where are you going</p>
                     </div>
-                    <div class="col">
-    
+                    <div class="col container m-4">
+                        <h5><b>Date <i class="fa fa-chevron-down" style="color: #f47436;"></i> </b></h5>
+                        <p>When you will go</p>
                     </div>
-                    <div class="col">
-    
+                    <div class="col container m-4">
+                        <h5><b>Guest <i class="fa fa-chevron-down" style="color: #f47436;"></i></b></h5>
+                        <p>Number of guest</p>
                     </div>
-                    <div class="col">
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-primary p-3 align-self-end mt-4">Discover Now</button>
+                    <div class="col container">
+                        <div class="d-flex mb-3">
+                            <button type="button" class="button mt-4">Explore Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer>
+        <section class="container mt-5 mb-5">
+                <div class="container mb-5">
+                    <div class="row text-center mb-4">
+                        <h1 class="h1 to-do">Things you need to do</h1>
+                    </div>
 
+                    <div class="row text-center" style="padding: 0px 280px;">
+                        <p class="p to-do">We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
+                    </div>  
+                </div>
+                <br>
+                <div class="container row">
+                    <div class="col container" style="background-color: #FFF8F5;">
+                        <img src="/Front-end/Basic front-end projects/Landing travel page/style/Sing up.png" alt="" style="padding: 40px 0px;">
+                        <div class="row">
+                            <h5><b>Sign Up</b></h5>
+                        </div>
+                        <div class="row">
+                            <p class="p to-do">Completes all the work associated with planning and processing</p>
+                        </div>
+                    </div>
+                    <div class="col container" style="background-color: #FFF8F5;">
+                        <img src="/Front-end/Basic front-end projects/Landing travel page/style/Worth of money.png" alt="" style="padding: 40px 0px;">
+                        <div class="row">
+                            <h5><b>Worth of Money</b></h5>
+                        </div>
+                        <div class="row">
+                            <p class="p to-do">CAfter successful access then book from exclusive deals & pricing</p>
+                        </div>
+                    </div>
+                    <div class="col container" style="background-color: #FFF8F5;">
+                        <img src="/Front-end/Basic front-end projects/Landing travel page/style/Travel.png" alt="" style="padding: 40px 0px;">
+                        <div class="row">
+                            <h5><b>Exciting Travel</b></h5>
+                        </div>
+                        <div class="row">
+                            <p class="p to-do">Start and explore a wide range of exciting travel experience.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="container details-discount mt-5">
+            <div class="container row mt-5">
+                <div class="container row m-3 p-3 text-center">
+                    <h1 class="h1">Exclusive deals & discounts</h1>
+                </div>
+                <div class="container row m-3 p-3 text-center">
+                    <p class="p-discount">Discover our fantastic early booking discounts & start planning your journey.<p>
+                </div>
+            </div>
+            <div class="container row">
+                    <div class="card m-1" style="width:250px">
+                        <img class="img-discount"src="/Front-end/Basic front-end projects/Landing travel page/style/Madrid.png" alt="Card image" style="width:100%">
+                        <div class="overlay">
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title"><b>Madrid</b></h5>
+                                    <p class="card-text">Spain</p>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-end"><b><i class='fa fa-star'></i>4.8</b></h6>
+                                    <p class="text-end">$850</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-1" style="width:250px">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/firenze1.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title"><b>Firenze</b></h5>
+                                    <p class="card-text">Italy</p>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-end"><b><i class='fa fa-star'></i>4.5</b></h6>
+                                    <p class="text-end">$750</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-1" style="width:250px">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/Paris.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Paris</b></h5>
+                            <p class="card-text">France</p>
+                        </div>
+                    </div>
+                    <div class="card m-1" style="width:250px">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/London.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <h5 class="card-title"><b>London</b></h5>
+                            <p class="card-text">UK</p>
+                        </div>
+                    </div>
+                    <ul class="pagination justify-content-center" style="margin:20px 0">
+                            <li class="page-item"><a class="page-link" href="#"><</a></li>
+                            <li class="page-item"><a class="page-link" href="#">></a></li>
+                    </ul>
+            </div>
+        </section>
+        <br>
+        <section class="container vacation-plan my-5">
+            <div class="container row mt-5">
+                <div class="container row m-3 p-3 text-center">
+                    <h1 class="h1">Best Vacation Plans</h1>
+                </div>
+                <div class="row text-center" style="padding: 0px 300px;">
+                    <p class="vacation-plan">Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers! <p>
+                </div>
+            </div>
+            <div class="container row justify-content-center">
+                    <div class="card mx-2" style="width:300px; height: 350px;">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/rome1.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="card-title"><b>Rome, Italy</b></h6>
+                                    <p style="font-size: 13px;"><i class="fa fa-paper-plane"></i> 10 Days Trip</p>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-end"><b>$5,42K</b></h6>
+                                    <p class="text-end">4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width:300px; height: 350px;">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/london21.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="card-title"><b>London, UK</b></h6>
+                                    <p style="font-size: 13px;"><i class="fa fa-paper-plane"></i> 07 Days Trip</p>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-end"><b>$2,42K</b></h6>
+                                    <p class="text-end">4.7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width:300px; height: 350px;">
+                        <figcaption>
+                            <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/osaka1.png" alt="Card image" style="width:100%">
+                        </figcaption>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="card-title"><b>Osaka, Japan</b></h6>
+                                    <p style="font-size: 13px;"><i class="fa fa-paper-plane"></i> 10 Days Trip</p>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-end"><b>$5,42K</b></h6>
+                                    <p class="text-end">4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <br>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col d-flex text-center">
+                    <div class="row">
+                        <div class="row ">
+                            <h1 class="main-heading p-4 h1 align-self-center justify-content-center text-start">What people say about us.</h1>
+                        </div>
+                        <div class=" row text-start ">
+                            <p class="align-self-baseline">Our Clients send us bunch of smilies with our services and we love them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="card align-self-start" style="width: 400px;">
+                            <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                            <h5><b>Mike taylor</b></h5>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="container details-discount mt-5">
+            <div class="container row mt-5">
+                <div class="container row m-3 p-3 text-center">
+                    <h1 class="h1">Get update with latest blog</h1>
+                </div>
+            </div>
+            <div class="container row">
+                <div class="card m-1" style="width:250px">
+                    <figcaption>
+                        <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/amazing1.png" alt="Card image" style="width:100%">
+                    </figcaption>
+                    <div class="card-body">
+                        <h6 class="card-title"><b>The Amazing Difference a Year of Travelling .</b></h6>
+                        <p class="card-text">July 27, 2021</p>
+                    </div>
+                </div>
+                <div class="card m-1" style="width:250px">
+                    <figcaption>
+                        <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/enought1.png" alt="Card image" style="width:100%">
+                    </figcaption>
+                    <div class="card-body">
+                        <h6 class="card-title"><b>Travel far enough, you meet yourself.</b></h6>
+                        <p class="card-text">July 27, 2021</p>
+                    </div>
+                </div>
+                <div class="card m-1" style="width:250px">
+                    <figcaption>
+                        <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/africa1.png" alt="Card image" style="width:100%">
+                    </figcaption>
+                    <div class="card-body">
+                        <h6 class="card-title"><b>How to Save Money While Visiting Africa.</b></h6>
+                        <p class="card-text">July 27, 2021</p>
+                    </div>
+                </div>
+                <div class="card m-1" style="width:250px">
+                    <figcaption>
+                        <img class="card-img-top" src="/Front-end/Basic front-end projects/Landing travel page/style/hang1.png" alt="Card image" style="width:100%">
+                    </figcaption>
+                    <div class="card-body">
+                        <h6 class="card-title"><b>Reflections on 5 Months of Travel: Time to Hang</b></h6>
+                        <p class="card-text">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="container my-5">
+                <div style="background-color: #FA7436; padding: 100px 150px; margin: 30px; border: 0px; border-radius: 30px; text-align: center;">
+                    <h1 class="h1" style="background-color: #FA7436; color: #FFF8F5;">Subscribe and get exclusive deals & offer</h1>
+                    <div class="input-group rounded p-2">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span class="input-group-text border-0" id="search-addon">
+                            <button type="button" class="button">Suscribe</button>
+                        </span>
+                    </div>
+                </div>
+        </section>
+        <footer>
+            <div class="row ">
+                <div class="col container">
+                    <img style="padding-left: 40px;" src="/Front-end/Basic front-end projects/Landing travel page/style/Logo.png" alt="">
+                    <p style="padding: 0px 120px 0px 40px;">Book your trip in minute, get full Control for much longer.</p>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h5 style="padding-left: 20px;"><b>Company</b></h5>
+                            <ul style="list-style: none;">
+                                <li><a style="text-decoration: none; color: gray;" href="#">About</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Carrers</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Logistic</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Privacy & Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h5 style="padding-left: 20px;"><b>Contact</b></h5>
+                            <ul style="list-style: none;">
+                                <li><a style="text-decoration: none; color: gray;" href="#">Help/FAQ</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Press</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Afiliates</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h5 style="padding-left: 20px;"><b>More</b></h5>
+                            <ul style="list-style: none;">
+                                <li><a style="text-decoration: none; color: gray;" href="#">Press Center</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Our Blog</a></li>
+                                <li><a style="text-decoration: none; color: gray;" href="#">Low fare tips</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row container-fluid">
+                <div class="col">
+                    <p style="padding-left: 20px;">Copyright, Trabook 2022. All rights reserved.</p>
+                </div>
+                <div class="col">
+                    <p class="text-end">Terms & Conditions</p>
+                </div>
+
+            </div>
         </footer>
     </body>
 </html>
