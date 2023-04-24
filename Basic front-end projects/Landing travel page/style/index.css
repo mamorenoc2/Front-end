@@ -1,5 +1,5 @@
 * {
-    background: #FEFCFB;
+    background: #FEFCFB !important;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -72,9 +72,5 @@ p.p-discount{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.img-discount:hover{
-    background-image: url("/styles/Hover_effect.png");
-    background-color: aquamarine !important; 
 }
 
